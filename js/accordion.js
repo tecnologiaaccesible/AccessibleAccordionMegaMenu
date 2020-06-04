@@ -3,6 +3,7 @@ var keys = { esc: 27, end: 35, home: 36, left: 37, up: 38, right: 39, down: 40};
 
 $(document).ready(function() {
 
+$('[data-toggle="tooltip"]').tooltip();
  handleKeyDown();
 
 });// documentready.
